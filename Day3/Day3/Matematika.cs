@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Day3
 {
     class Matematika
-    {/*
+    {
         public void Saskaitīt()
         {
             int a;
@@ -56,7 +56,7 @@ namespace Day3
                 Console.WriteLine("Ievade nav pareiza");
             }
 
-        }*/
+        }
 
         private int SkaitlaIevade()
         {
@@ -67,7 +67,7 @@ namespace Day3
             return jaunaisSkaitlis;
         }
 
-        /*public void Teikums()
+        public void Teikums()
         {
             
             String teikums = "";
@@ -79,7 +79,7 @@ namespace Day3
                 
             }
             Console.WriteLine(teikums);
-        }*/
+        }
 
         public void Kapinasana()
         {
