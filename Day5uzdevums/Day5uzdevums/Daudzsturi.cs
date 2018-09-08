@@ -16,7 +16,7 @@ namespace Day5uzdevums
             Menu();
         }
 
-        public void Menu()
+        private void Menu()
         {
             String choice = "";
 
