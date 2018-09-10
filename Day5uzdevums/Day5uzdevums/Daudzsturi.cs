@@ -23,7 +23,7 @@ namespace Day5uzdevums
             while (choice != "0")
             {
 
-                Console.WriteLine("1-ievadiet malu skaitu, 2-ievadiet malu garumu, 3-paradit malu skaitu/garumu un kas par figuru, 4-Perimetrs, 0-iziet");
+                Console.WriteLine("1-ievadiet sturu skaitu, 2-ievadiet malu garumu, 3-paradit malu skaitu/garumu un kas par figuru, 4-Perimetrs, 0-iziet");
                 choice = Console.ReadLine();
 
                 switch (choice)
@@ -35,8 +35,8 @@ namespace Day5uzdevums
                         MaluGarums();
                         break;
                     case "3":
-                        Console.WriteLine("Malu skaits =" + " " + b);
-                        Console.WriteLine("Malu garums =" + " " + c);
+                        Console.WriteLine("Malu skaits = " + b);
+                        Console.WriteLine("Malu garums = " + c);
                         FigurasVeids();
                         break;
                     case "4":
@@ -53,10 +53,8 @@ namespace Day5uzdevums
 
 
         private void FigurasVeids()
-        {
-            int figura = b;
-
-            switch (figura)
+        {           
+            switch (b)
             {
                 case 3:
                     Console.WriteLine("Figura = Trijsturis");
@@ -82,7 +80,7 @@ namespace Day5uzdevums
 
             int result = skaits * garums;
 
-            Console.WriteLine("Figuras perimetrs =" + " " + result);
+            Console.WriteLine("Figuras perimetrs = " + result);
         }
 
         // parbauda vai ievadita vertiba sakrit ar int 3, 4 vai 5 un tad aktivize MaluSkaits() funkciju kura tiek padota talak ievadita vertiba.
