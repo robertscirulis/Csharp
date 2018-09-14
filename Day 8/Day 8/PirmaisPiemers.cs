@@ -46,12 +46,8 @@ namespace Day_8
             for (int i = 0; i < array.Length; i++)
             {
                 array[i] = "-";
+                Console.Write(array[i]);
             }
-            for (int i = 0; i < array.Length; i++)
-            {
-                Console.WriteLine("-");
-            }
-
         }
     }
 }

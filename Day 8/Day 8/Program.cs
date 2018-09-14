@@ -14,7 +14,7 @@ namespace Day_8
 
             String izvele = "";
 
-            while (izvele != "iziet")
+            while (izvele != "0")
             {
                 Console.WriteLine("Nospiediet 1, lai ievaditu masiva vertibas");
                 izvele = Console.ReadLine();
