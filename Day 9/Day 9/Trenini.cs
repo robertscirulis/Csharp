@@ -14,12 +14,11 @@ namespace Day_9
 
             while (choice != "iziet")
             {
-                Console.WriteLine("Ievadiet 1 lai butu \"fun\", 3 lai butu \"extra fun\" vai \"iziet\" lai izietu: ");
-                Console.WriteLine("2 lai butu more fun");
-                Console.WriteLine();
-                Console.WriteLine();
-                Console.WriteLine();
-                Console.WriteLine();
+                Console.WriteLine("Ievadiet 1 lai butu fun ar restitem");
+                Console.WriteLine("2 lai butu more fun ar restitem v3");
+                Console.WriteLine("3 lai butu extra fun ar restutem v4");
+                Console.WriteLine("4 lai butu mega fun ar Zvaigznite vai restite");
+                Console.WriteLine("\"iziet\" lai izietu");
                 choice = Console.ReadLine();
                 switch (choice)
                 {
@@ -31,6 +30,9 @@ namespace Day_9
                         break;
                     case "3":
                         Restite4();
+                        break;
+                    case "4":
+                        ZvaigzniteVaiRestite();
                         break;
                     case "iziet":
                         break;

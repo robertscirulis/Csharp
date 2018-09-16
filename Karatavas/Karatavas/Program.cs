@@ -4,16 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Day_9
+namespace Karatavas
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Trenini tre = new Trenini();
-            tre.Menu();
-            //tre.Restite4();
-            //tre.ZvaigzniteVaiRestite();
+            Spele ob1 = new Spele();
+
+            ob1.Menu();
+
+            //ob1.MasivaSkats();
 
             //Console.ReadLine();
         }
